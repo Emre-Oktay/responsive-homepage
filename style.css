@@ -76,14 +76,14 @@ h6 {
 
 @font-face {
     font-family: 'Ancizar Serif';
-    src: url('assets/AncizarSerif-VariableFont_wght.ttf') format('truetype');
+    src: url('assets/fonts/AncizarSerif-VariableFont_wght.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: url('assets/Montserrat-VariableFont_wght.ttf') format('truetype');
+    src: url('assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
@@ -122,6 +122,7 @@ header::before {
 }
 
 .header-pic {
+    width: 400px;
     position: relative;
     z-index: 2;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.4);
@@ -180,6 +181,13 @@ section {
     box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
 }
 
+.work-img {
+    width: 350px;
+    height: 250px;
+    object-fit: contain;
+    background-color: #d3d3d3;
+}
+
 .work-title {
     display: flex;
     justify-content: space-between;
@@ -209,6 +217,11 @@ footer {
     justify-content: space-between;
     width: 1100px;
     font-size: 1.5rem;
+}
+
+.footer-content picture {
+    width: 600px;
+    height: 500px;
 }
 
 .contact-card {
@@ -283,6 +296,11 @@ footer {
 
     .footer-content {
         width: 750px;
+    }
+
+    .footer-content picture {
+        width: 400px;
+        height: 500px;
     }
 
     .contact-card {
